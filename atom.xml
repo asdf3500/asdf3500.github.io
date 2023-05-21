@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>AstonのBlog</title>
+  <icon>https://asdf3500.github.io/icon.png</icon>
+  <subtitle>一个小小的博客</subtitle>
+  <link href="https://asdf3500.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://asdf3500.github.io/"/>
+  <updated>2023-05-19T14:24:31.107Z</updated>
+  <id>https://asdf3500.github.io/</id>
+  
+  <author>
+    <name>Aston Wind</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Welcome!</title>
+    <link href="https://asdf3500.github.io/2023/05/20/About/"/>
+    <id>https://asdf3500.github.io/2023/05/20/About/</id>
+    <published>2023-05-19T16:00:00.000Z</published>
+    <updated>2023-05-19T14:24:31.107Z</updated>
+    
+    <content type="html"><![CDATA[<p>欢迎来到个人博客。<br>经过几个小时的奋战，捣鼓出来一个依靠GitHub的小网站，个人感觉还行，在这个过程中感觉还有好多东西要学。</p><p>Tag与Category的区别，自定义一些好玩的功能。</p><p>但最重要的还是得学习一下如何输出，对于我来说，文学表达方面真的很差很差。<br>希望能够将其他地方零散的文档，经过润色之后慢慢的搬运过来，把这边打造成个人库，顺便作为一个随笔一样的地方，不再去想着那个文档是在语雀还是腾讯文档，是OneDrive还是Notion。</p><p>互联网时代，能解决需求的工具层出不穷，但很难找到一个可以让自己一直能够用下去的，希望这次能行吧。</p><div style="text-align: right"> 2023年5月19日 </div>  ]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;欢迎来到个人博客。&lt;br&gt;经过几个小时的奋战，捣鼓出来一个依靠GitHub的小网站，个人感觉还行，在这个过程中感觉还有好多东西要学。&lt;/p&gt;
+&lt;p&gt;Tag与Category的区别，自定义一些好玩的功能。&lt;/p&gt;
+&lt;p&gt;但最重要的还是得学习一下如何输出，对于我来说，文学表达方
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="天气" scheme="https://asdf3500.github.io/tags/%E5%A4%A9%E6%B0%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://asdf3500.github.io/2023/05/19/hello-world/"/>
+    <id>https://asdf3500.github.io/2023/05/19/hello-world/</id>
+    <published>2023-05-18T16:00:00.000Z</published>
+    <updated>2023-05-19T07:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>在 Docker 中安装 Hexo</title>
+    <link href="https://asdf3500.github.io/2023/05/18/%E5%9C%A8-Docker-%E4%B8%AD%E5%AE%89%E8%A3%85-Hexo/"/>
+    <id>https://asdf3500.github.io/2023/05/18/%E5%9C%A8-Docker-%E4%B8%AD%E5%AE%89%E8%A3%85-Hexo/</id>
+    <published>2023-05-17T16:00:00.000Z</published>
+    <updated>2023-05-21T09:04:41.467Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>为了不污染本地环境，尝试在 Docker 中安装 Hexo，结果遇到不少坑。</p><hr><p>旧版 Docker 需要 VirtualBox，网上教程大多使用 Boot2Docker 和 Docker Toolbox，但新版以 HyperKit 方式直接支持，更加方便。</p><hr><h3 id="什么是-Docker"><a href="#什么是-Docker" class="headerlink" title="什么是 Docker"></a>什么是 Docker</h3><blockquote><p>Docker 是一个开源项目，诞生于 2013 年初，最初是 dotCloud 公司内部的一个业余项目。它基于 Google 公司推出的 Go 语言实现。项目后来加入了 Linux 基金会，遵从了 Apache 2.0 协议，项目代码在 GitHub 上进行维护。<br><br>Docker 自开源后受到广泛的关注和讨论，以至于 dotCloud 公司后来都改名为 Docker Inc。Redhat 已经在其 RHEL6.5 中集中支持 Docker；Google 也在其 PaaS 产品中广泛应用。<br><br>Docker 项目的目标是实现轻量级的操作系统虚拟化解决方案。Docker 的基础是 Linux 容器（LXC）等技术。<br><br>在 LXC 的基础上 Docker 进行了进一步的封装，让用户不需要去关心容器的管理，使得操作更为简便。用户操作 Docker 的容器就像操作一个快速轻量级的虚拟机一样简单。<br><br>Docker —— 从入门到实践<br>yeasy.gitbooks.io&#x2F;docker_practice&#x2F;content&#x2F;introduction&#x2F;what.html</p></blockquote><h3 id="安装-Docker"><a href="#安装-Docker" class="headerlink" title="安装 Docker"></a>安装 Docker</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">brew cask install docker</span><br><span class="line">brew cask install kitematic</span><br></pre></td></tr></table></figure><p>Kitematic 非必须，是用于管理镜像（image）和容器（container）的 GUI。更推荐在 CLI 中进行操作。</p><h3 id="编写-Dockerfile"><a href="#编写-Dockerfile" class="headerlink" title="编写 Dockerfile"></a>编写 Dockerfile</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"># https://docs.docker.com/engine/reference/builder/</span><br><span class="line"></span><br><span class="line"># The `FROM` instruction sets the Base Image for subsequent instructions.</span><br><span class="line">FROM node</span><br><span class="line"></span><br><span class="line"># The `MAINTAINER` instruction allows you to set the Author field of the generated images.</span><br><span class="line">MAINTAINER nuomi1 &lt;nuomi1@gmail.com&gt;</span><br><span class="line"></span><br><span class="line"># The `WORKDIR` instruction sets the working directory for any `RUN`, `CMD`, `ENTRYPOINT`, `COPY` and `ADD` instructions that follow it in the Dockerfile.</span><br><span class="line">WORKDIR /blog</span><br><span class="line"></span><br><span class="line"># The `RUN` instruction will execute any commands in a new layer on top of the current image and commit the results.</span><br><span class="line">RUN npm install hexo-cli --global</span><br><span class="line"></span><br><span class="line"># The `CMD` instruction is to provide defaults for an executing container.</span><br><span class="line">CMD [&quot;bash&quot;]</span><br><span class="line"></span><br><span class="line"># The `EXPOSE` instruction informs Docker that the container listens on the specified network ports at runtime.</span><br><span class="line">EXPOSE 4000</span><br><span class="line"></span><br><span class="line"># The `VOLUME` instruction creates a mount point with the specified name and marks it as holding externally mounted volumes from native host or other containers.</span><br><span class="line">VOLUME [&quot;/blog&quot;]</span><br></pre></td></tr></table></figure><p>基于 Node.js 镜像制作 Hexo 镜像。EXPOSE 监听容器端口，实现宿主机访问容器。VOLUME 把宿主机文件夹与容器绑定，实现数据交换。</p><h3 id="制作-Hexo-镜像"><a href="#制作-Hexo-镜像" class="headerlink" title="制作 Hexo 镜像"></a>制作 Hexo 镜像</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line">➜ ~ docker build -t hexo:3.2.2 .</span><br><span class="line">Sending build context to Docker daemon  2.56 kB</span><br><span class="line">Step 1 : FROM node</span><br><span class="line"> ---&gt; e3e7156ded1f</span><br><span class="line">Step 2 : MAINTAINER nuomi1 &lt;nuomi1@gmail.com&gt;</span><br><span class="line"> ---&gt; Running in ec112a08d029</span><br><span class="line"> ---&gt; 8f879fde3b92</span><br><span class="line">Removing intermediate container ec112a08d029</span><br><span class="line">Step 3 : WORKDIR /blog</span><br><span class="line"> ---&gt; Running in c38a1ed24e99</span><br><span class="line"> ---&gt; fc7af853de2d</span><br><span class="line">Removing intermediate container c38a1ed24e99</span><br><span class="line">Step 4 : RUN npm install hexo-cli --global</span><br><span class="line"> ---&gt; Running in 443bc5a93f6f</span><br><span class="line"></span><br><span class="line">...</span><br><span class="line"></span><br><span class="line">npm WARN optional Skipping failed optional dependency /hexo-cli/chokidar/fsevents:</span><br><span class="line">npm WARN notsup Not compatible with your operating system or architecture: fsevents@1.0.14</span><br><span class="line">npm info ok</span><br><span class="line"> ---&gt; 822836fccda7</span><br><span class="line">Removing intermediate container 443bc5a93f6f</span><br><span class="line">Step 5 : CMD bash</span><br><span class="line"> ---&gt; Running in 54aaa1b027cc</span><br><span class="line"> ---&gt; 16355691b010</span><br><span class="line">Removing intermediate container 54aaa1b027cc</span><br><span class="line">Step 6 : EXPOSE 4000</span><br><span class="line"> ---&gt; Running in 63d3a94bbec8</span><br><span class="line"> ---&gt; 76e4bb5cb68c</span><br><span class="line">Removing intermediate container 63d3a94bbec8</span><br><span class="line">Step 7 : VOLUME /blog</span><br><span class="line"> ---&gt; Running in 570626f0c9d3</span><br><span class="line"> ---&gt; 1665568a3712</span><br><span class="line">Removing intermediate container 570626f0c9d3</span><br><span class="line">Successfully built 1665568a3712</span><br></pre></td></tr></table></figure><p>fsevents 用于 OS X，但 Node.js 镜像为 Debian，忽略即可。</p><h3 id="制作-Hexo-容器"><a href="#制作-Hexo-容器" class="headerlink" title="制作 Hexo 容器"></a>制作 Hexo 容器</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -i --name hexo -p 4000:4000 -t -v ~/blog:/blog hexo:3.2.2</span><br></pre></td></tr></table></figure><p>容器 4000 端口宿主机 4000 端口绑定，宿主机访问 <a href="http://localhost:4000/">http://localhost:4000</a> 即可预览博客。宿主机 <code> ~/blog</code> 与容器 <code>/blog</code> 绑定，实现数据交换。</p><h3 id="运行-Hexo-容器"><a href="#运行-Hexo-容器" class="headerlink" title="运行 Hexo 容器"></a>运行 Hexo 容器</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker start -i hexo</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;为了不污染本地环境，尝试在 Docker 中安装 Hexo，结果遇到不少坑。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;旧版 Docker 需要
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
