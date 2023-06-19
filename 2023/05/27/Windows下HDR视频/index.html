@@ -1,0 +1,265 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Windows下HDR视频的播放情况 | Aston の Blog</title><meta name="author" content="Aston Wind"><meta name="copyright" content="Aston Wind"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="本文比较了 PotPlayer、VLC media player 和 Windows 媒体播放器在播放 HDR 视频时的差异。 VLC 在显示效果方面表现最佳， PotPlayer 需要调整设置才能发挥作用。文章还提到了 Bilibili 网页版对 HDR 的支持。读者可以根据这些比较来选择适合自己需求的播放器，提升观影体验。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Windows下HDR视频的播放情况">
+<meta property="og:url" content="https://asdf3500.github.io/2023/05/27/Windows%E4%B8%8BHDR%E8%A7%86%E9%A2%91/index.html">
+<meta property="og:site_name" content="Aston の Blog">
+<meta property="og:description" content="本文比较了 PotPlayer、VLC media player 和 Windows 媒体播放器在播放 HDR 视频时的差异。 VLC 在显示效果方面表现最佳， PotPlayer 需要调整设置才能发挥作用。文章还提到了 Bilibili 网页版对 HDR 的支持。读者可以根据这些比较来选择适合自己需求的播放器，提升观影体验。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://asdf3500.github.io/images/avatar/aston.png">
+<meta property="article:published_time" content="2023-05-27T14:00:00.000Z">
+<meta property="article:modified_time" content="2023-05-28T14:00:00.000Z">
+<meta property="article:author" content="Aston Wind">
+<meta property="article:tag" content="教程">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://asdf3500.github.io/images/avatar/aston.png"><link rel="shortcut icon" href="/images/info/logo.png"><link rel="canonical" href="https://asdf3500.github.io/2023/05/27/Windows%E4%B8%8BHDR%E8%A7%86%E9%A2%91/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"bottom-right"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: true,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Windows下HDR视频的播放情况',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-05-28 22:00:00'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'"><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Aston の Blog" type="application/atom+xml">
+</head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/images/avatar/aston.png" onerror="onerror=null;src='/images/info/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 列表</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background: linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347)"><nav id="nav"><span id="blog-info"><a href="/" title="Aston の Blog"><span class="site-name">Aston の Blog</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 列表</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Windows下HDR视频的播放情况</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-05-27T14:00:00.000Z" title="发表于 2023-05-27 22:00:00">2023-05-27</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-05-28T14:00:00.000Z" title="更新于 2023-05-28 22:00:00">2023-05-28</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">826</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>2分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Windows下HDR视频的播放情况"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h1><p>　　最近流媒体上了疾速追杀4，看豆瓣上的评分，这部电影的口碑还是很不错的，所以我下载了一份 HDR 版本的电影。</p>
+<p>　　但用本地播放器播放的时候就傻眼了，在没有任何配置下的 PotPlayer 里面播放，完全是套上了一层滤镜一样，完全不能发挥它应该的样貌。于是乎，有了这么一篇文章。</p>
+<h1 id="不同软件的对比"><a href="#不同软件的对比" class="headerlink" title="不同软件的对比"></a>不同软件的对比</h1><p>　　这次对比的软件分别是 PotPlayer、VLC media player 以及 Windows 自带的媒体播放器，且这些软件均为默认设置。<br>　　在影片的2分03秒，我将内容截图做为比较。<br><img src="/images/post/john_wick/pot.webp" alt="PotPlayer"></p>
+<p><img src="/images/post/john_wick/%E5%AA%92%E4%BD%93%E6%92%AD%E6%94%BE%E5%99%A8.webp" alt="媒体播放器"></p>
+<p><img src="/images/post/john_wick/vlc.webp" alt="VLC media player"><br>　　可以很明显的看到三个播放器在同一画面的不同表现。<br>　　同样是火焰，PotPlayer 的显示效果会暗淡一些，有一种灰蒙蒙的感觉，媒体播放器效果也很不错，个人观感最好的还是VLC，火焰的亮度更高一些。<br>　　左下角的灯光和右上角二楼内容的显示，系统播放器和 VLC Player 能够显示更多的暗部细节，清晰的看到二楼有什么，而 PotPlayer 就呈现出灰蒙蒙的感觉，观感上就让人有些不舒服。</p>
+<h1 id="优缺点"><a href="#优缺点" class="headerlink" title="优缺点"></a>优缺点</h1><p>　　以下是我对三个播放器的简单总结：</p>
+<h2 id="PotPlayer"><a href="#PotPlayer" class="headerlink" title="PotPlayer"></a>PotPlayer</h2><p>优点：</p>
+<ul>
+<li>支持视频格式全，也支持很多字幕文件，对 Windows 优化到位。</li>
+<li>可以通过插件进行自定义，例如 madVR 等，如果喜欢折腾的话，可以自己调整到最适合自己的状态。</li>
+<li>默认 UI 简洁清爽。</li>
+</ul>
+<p>缺点</p>
+<ul>
+<li>在没有修改设置的情况下，播放 HDR 视频就好像套了一层滤镜，无法调用显示器的 HDR 亮度，效果类似于 SDR 加了一层滤镜。</li>
+</ul>
+<h2 id="媒体播放器"><a href="#媒体播放器" class="headerlink" title="媒体播放器"></a>媒体播放器</h2><p>优点</p>
+<ul>
+<li>能直接调用 HDR 播放。</li>
+<li>支持的格式多，显示效果强。</li>
+</ul>
+<p>缺点</p>
+<ul>
+<li>对字幕文件格式支持不是很友好，<code>.ass</code> 、<code>.sup</code> 这类的文件，有时候根本不能用。</li>
+</ul>
+<h2 id="VLC-media-player"><a href="#VLC-media-player" class="headerlink" title="VLC media player"></a>VLC media player</h2><p>优点</p>
+<ul>
+<li>能直接调用 HDR 播放。</li>
+<li>支持的格式多，显示效果强，个人观感最好。</li>
+</ul>
+<p>缺点</p>
+<ul>
+<li>播放外挂字幕时，对 <code>.ass</code> 文件可能还会出现字幕颜色异常的情况。如下图所示：</li>
+</ul>
+<p><img src="/images/post/john_wick/%E5%AD%97%E5%B9%95%E9%A2%9C%E8%89%B2%E5%BC%82%E5%B8%B8.webp" alt="字幕颜色异常"><br>　　解决的办法也很简单，依次打开：工具-偏好设置-视频-输出，选择 <code>OpenGL 视频输出</code> ，然后重新打开视频、挂载字幕。<a target="_blank" rel="noopener" href="https://cloud.tencent.com/developer/article/2024026"><sup>1</sup></a><br><img src="/images/post/john_wick/VLC%E8%AE%BE%E7%BD%AE.webp" alt="VLC设置"><br>　　关闭播放器，再重新打开就可以看到字幕色彩正常啦！<br><img src="/images/post/john_wick/VLC%E4%BF%AE%E6%94%B9%E5%90%8E.webp" alt="VLC修改后"><br>　　修改成 <code>OpenGL 视频输出</code> 之后就没有办法像 Windows 一样直接播放，在笔者的电脑上需要进行切换且在 HDR 下没办法正常截图,肉眼观感不受影响，使用体验会大打折扣。<br><br>　　窗口模式时有视频进度条，但是鼠标进入视频界面会消失。<br><br>　　全屏时没有视频进度条（晃动鼠标也没有），鼠标在画面也会消失。<br></p>
+<h1 id="Bilibili-对-HDR-的支持"><a href="#Bilibili-对-HDR-的支持" class="headerlink" title="Bilibili 对 HDR 的支持"></a>Bilibili 对 HDR 的支持</h1><p>　　现在在 Windows 上，只要 Chromium 内核版本大于106，可以直接在网页版直接观看 HDR 的视频内容。（需要开通大会员）<br><img src="/images/post/john_wick/Bilibilihdr.webp" alt=" Bilibili 上的 HDR 选项"></p>
+<h1 id="参考内容"><a href="#参考内容" class="headerlink" title="参考内容"></a>参考内容</h1><p>1:<a target="_blank" rel="noopener" href="https://cloud.tencent.com/developer/article/2024026">解决 Windows 下 VLC 播放 HDR 视频外挂字幕纯黑问题</a></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://asdf3500.github.io">Aston Wind</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://asdf3500.github.io/2023/05/27/Windows%E4%B8%8BHDR%E8%A7%86%E9%A2%91/">https://asdf3500.github.io/2023/05/27/Windows%E4%B8%8BHDR%E8%A7%86%E9%A2%91/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://asdf3500.github.io" target="_blank">Aston の Blog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E6%95%99%E7%A8%8B/">教程</a></div><div class="post_share"><div class="social-share" data-image="/images/avatar/aston.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/images/info/wechat.jpg" target="_blank"><img class="post-qr-code-img" src="/images/info/wechat.jpg" alt="wechat"/></a><div class="post-qr-code-desc">wechat</div></li><li class="reward-item"><a href="/images/info/alipay.jpg" target="_blank"><img class="post-qr-code-img" src="/images/info/alipay.jpg" alt="alipay"/></a><div class="post-qr-code-desc">alipay</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2023/06/18/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%BB%9A%E5%8A%A8%E6%9D%A1%E7%9A%84%E4%BC%98%E5%8C%96/" title="浏览器滚动条的修改"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">浏览器滚动条的修改</div></div></a></div><div class="next-post pull-right"><a href="/2023/05/20/Welcome/" title="Welcome!"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Welcome!</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2023/06/18/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%BB%9A%E5%8A%A8%E6%9D%A1%E7%9A%84%E4%BC%98%E5%8C%96/" title="浏览器滚动条的修改"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-06-18</div><div class="title">浏览器滚动条的修改</div></div></a></div><div><a href="/2023/05/18/%E5%9C%A8-Docker-%E4%B8%AD%E5%AE%89%E8%A3%85-Hexo/" title="在 Docker 中安装 Hexo"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-05-18</div><div class="title">在 Docker 中安装 Hexo</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/images/avatar/aston.png" onerror="this.onerror=null;this.src='/images/info/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Aston Wind</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/asdf3500"><i class="fab fa-github"></i><span>这是什么？</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/asdf3500" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:qqasdf3500@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a><a class="social-icon" href="https://t.me/Aston3500" target="_blank" title="Telegram"><i class="fa-brands fa-telegram" style="color: #188fca;"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title="RSS"><i class="fa-solid fa-square-rss" style="color: #f68422;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%B5%B7%E5%9B%A0"><span class="toc-number">1.</span> <span class="toc-text">起因</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%8D%E5%90%8C%E8%BD%AF%E4%BB%B6%E7%9A%84%E5%AF%B9%E6%AF%94"><span class="toc-number">2.</span> <span class="toc-text">不同软件的对比</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BC%98%E7%BC%BA%E7%82%B9"><span class="toc-number">3.</span> <span class="toc-text">优缺点</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#PotPlayer"><span class="toc-number">3.1.</span> <span class="toc-text">PotPlayer</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AA%92%E4%BD%93%E6%92%AD%E6%94%BE%E5%99%A8"><span class="toc-number">3.2.</span> <span class="toc-text">媒体播放器</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#VLC-media-player"><span class="toc-number">3.3.</span> <span class="toc-text">VLC media player</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Bilibili-%E5%AF%B9-HDR-%E7%9A%84%E6%94%AF%E6%8C%81"><span class="toc-number">4.</span> <span class="toc-text">Bilibili 对 HDR 的支持</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8F%82%E8%80%83%E5%86%85%E5%AE%B9"><span class="toc-number">5.</span> <span class="toc-text">参考内容</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/06/18/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%BB%9A%E5%8A%A8%E6%9D%A1%E7%9A%84%E4%BC%98%E5%8C%96/" title="浏览器滚动条的修改">浏览器滚动条的修改</a><time datetime="2023-06-17T16:00:00.000Z" title="发表于 2023-06-18 00:00:00">2023-06-18</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/05/27/Windows%E4%B8%8BHDR%E8%A7%86%E9%A2%91/" title="Windows下HDR视频的播放情况">Windows下HDR视频的播放情况</a><time datetime="2023-05-27T14:00:00.000Z" title="发表于 2023-05-27 22:00:00">2023-05-27</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/05/20/Welcome/" title="Welcome!">Welcome!</a><time datetime="2023-05-19T16:00:00.000Z" title="发表于 2023-05-20 00:00:00">2023-05-20</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/05/19/hello-world/" title="Hello World">Hello World</a><time datetime="2023-05-18T16:00:00.000Z" title="发表于 2023-05-19 00:00:00">2023-05-19</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/05/18/%E5%9C%A8-Docker-%E4%B8%AD%E5%AE%89%E8%A3%85-Hexo/" title="在 Docker 中安装 Hexo">在 Docker 中安装 Hexo</a><time datetime="2023-05-17T16:00:00.000Z" title="发表于 2023-05-18 00:00:00">2023-05-18</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2023 By Aston Wind</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script>function panguFn () {
+  if (typeof pangu === 'object') pangu.autoSpacingPage()
+  else {
+    getScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js')
+      .then(() => {
+        pangu.autoSpacingPage()
+      })
+  }
+}
+
+function panguInit () {
+  if (false){
+    GLOBAL_CONFIG_SITE.isPost && panguFn()
+  } else {
+    panguFn()
+  }
+}
+
+document.addEventListener('DOMContentLoaded', panguInit)</script><div class="js-pjax"><script>function loadValine () {
+  function initValine () {
+    const valine = new Valine(Object.assign({
+      el: '#vcomment',
+      appId: 'ilMbAAe5i2zMuQdbR8313sOG-9Nh9j0Va',
+      appKey: 'sHBfplPk73UU8z7ZrYoC5fIq',
+      avatar: 'monsterid',
+      serverURLs: '',
+      emojiMaps: "",
+      path: window.location.pathname,
+      visitor: false
+    }, null))
+  }
+
+  if (typeof Valine === 'function') initValine() 
+  else getScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js').then(initValine)
+}
+
+if ('Valine' === 'Valine' || !false) {
+  if (false) btf.loadComment(document.getElementById('vcomment'),loadValine)
+  else setTimeout(loadValine, 0)
+} else {
+  function loadOtherComment () {
+    loadValine()
+  }
+}</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div class="no-result" id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>

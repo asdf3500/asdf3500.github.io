@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Aston の Blog</title>
+  <icon>https://asdf3500.github.io/icon.png</icon>
+  <subtitle>一个小小的博客</subtitle>
+  <link href="https://asdf3500.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://asdf3500.github.io/"/>
+  <updated>2023-06-19T07:00:00.000Z</updated>
+  <id>https://asdf3500.github.io/</id>
+  
+  <author>
+    <name>Aston Wind</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>浏览器滚动条的修改</title>
+    <link href="https://asdf3500.github.io/2023/06/18/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%BB%9A%E5%8A%A8%E6%9D%A1%E7%9A%84%E4%BC%98%E5%8C%96/"/>
+    <id>https://asdf3500.github.io/2023/06/18/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%BB%9A%E5%8A%A8%E6%9D%A1%E7%9A%84%E4%BC%98%E5%8C%96/</id>
+    <published>2023-06-17T16:00:00.000Z</published>
+    <updated>2023-06-19T07:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>这些都是实验室内容，不能保证与未来版本通用。<br>Chrome 版本：113.0.5672.127（正式版本） （64 位）<br>Microsoft Edge 版本 113.0.1774.57 (正式版本) (64 位)</p><h1 id="Edge-优化"><a href="#Edge-优化" class="headerlink" title="Edge 优化"></a>Edge 优化</h1><h2 id="滚动条"><a href="#滚动条" class="headerlink" title="滚动条"></a>滚动条</h2><p>修改默认的方块样式<br>此功能仅限 Edge 浏览器<br>打开<code>edge://flags/</code>，搜索<code>Windows Fluent scrollbars.</code>，右边的选项卡选中<code>Enable</code></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Windows Fluent scrollbars.</span><br><span class="line">Enables Windows Fluent scrollbars. To experiment with Fluent overlay scrollbars, enable &quot;Enabled in Settings&quot; option and turn “Always show scrollbars” setting off in Settings &gt; Appearance &gt; Customize browser. – Windows</span><br></pre></td></tr></table></figure><h2 id="平滑滚动"><a href="#平滑滚动" class="headerlink" title="平滑滚动"></a>平滑滚动</h2><p>打开<code>edge://flags/</code>，搜索<code>Smooth Scrolling</code>，右边的选项卡选中<code>Enable</code></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Smooth Scrolling</span><br><span class="line">Animate smoothly when scrolling page content. – Windows, Linux, Android</span><br></pre></td></tr></table></figure><h1 id="Chrome-优化"><a href="#Chrome-优化" class="headerlink" title="Chrome 优化"></a>Chrome 优化</h1><h2 id="自动隐藏滚动条"><a href="#自动隐藏滚动条" class="headerlink" title="自动隐藏滚动条"></a>自动隐藏滚动条</h2><p>在页面没有上下滑动的时候，默认隐藏，鼠标靠近变粗。虽然没有 Edge 那个圆润的滚动条，但是细滚动条看过去还行。</p><p>打开<code>chrome://flags/</code>，搜索<code>Overlay Scrollbars</code>，右边的选项卡选中<code>Enable</code></p><h2 id="平滑滚动-1"><a href="#平滑滚动-1" class="headerlink" title="平滑滚动"></a>平滑滚动</h2><p>打开<code>chrome://flags/</code>，搜索<code>Smooth Scrolling</code>，右边的选项卡选中<code>Enable</code></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;这些都是实验室内容，不能保证与未来版本通用。&lt;br&gt;Chrome 版本：113.0.5672.127（正式版本） （64 位）&lt;br&gt;Microsoft Edge 版本 113.0.1774.57 (正式版本) (64 位)&lt;/p&gt;
+&lt;h1 id=&quot;Edge-优化&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="教程" scheme="https://asdf3500.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows下HDR视频的播放情况</title>
+    <link href="https://asdf3500.github.io/2023/05/27/Windows%E4%B8%8BHDR%E8%A7%86%E9%A2%91/"/>
+    <id>https://asdf3500.github.io/2023/05/27/Windows%E4%B8%8BHDR%E8%A7%86%E9%A2%91/</id>
+    <published>2023-05-27T14:00:00.000Z</published>
+    <updated>2023-05-28T14:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h1><p>　　最近流媒体上了疾速追杀4，看豆瓣上的评分，这部电影的口碑还是很不错的，所以我下载了一份 HDR 版本的电影。</p><p>　　但用本地播放器播放的时候就傻眼了，在没有任何配置下的 PotPlayer 里面播放，完全是套上了一层滤镜一样，完全不能发挥它应该的样貌。于是乎，有了这么一篇文章。</p><h1 id="不同软件的对比"><a href="#不同软件的对比" class="headerlink" title="不同软件的对比"></a>不同软件的对比</h1><p>　　这次对比的软件分别是 PotPlayer、VLC media player 以及 Windows 自带的媒体播放器，且这些软件均为默认设置。<br>　　在影片的2分03秒，我将内容截图做为比较。<br><img src="/images/post/john_wick/pot.webp" alt="PotPlayer"></p><p><img src="/images/post/john_wick/%E5%AA%92%E4%BD%93%E6%92%AD%E6%94%BE%E5%99%A8.webp" alt="媒体播放器"></p><p><img src="/images/post/john_wick/vlc.webp" alt="VLC media player"><br>　　可以很明显的看到三个播放器在同一画面的不同表现。<br>　　同样是火焰，PotPlayer 的显示效果会暗淡一些，有一种灰蒙蒙的感觉，媒体播放器效果也很不错，个人观感最好的还是VLC，火焰的亮度更高一些。<br>　　左下角的灯光和右上角二楼内容的显示，系统播放器和 VLC Player 能够显示更多的暗部细节，清晰的看到二楼有什么，而 PotPlayer 就呈现出灰蒙蒙的感觉，观感上就让人有些不舒服。</p><h1 id="优缺点"><a href="#优缺点" class="headerlink" title="优缺点"></a>优缺点</h1><p>　　以下是我对三个播放器的简单总结：</p><h2 id="PotPlayer"><a href="#PotPlayer" class="headerlink" title="PotPlayer"></a>PotPlayer</h2><p>优点：</p><ul><li>支持视频格式全，也支持很多字幕文件，对 Windows 优化到位。</li><li>可以通过插件进行自定义，例如 madVR 等，如果喜欢折腾的话，可以自己调整到最适合自己的状态。</li><li>默认 UI 简洁清爽。</li></ul><p>缺点</p><ul><li>在没有修改设置的情况下，播放 HDR 视频就好像套了一层滤镜，无法调用显示器的 HDR 亮度，效果类似于 SDR 加了一层滤镜。</li></ul><h2 id="媒体播放器"><a href="#媒体播放器" class="headerlink" title="媒体播放器"></a>媒体播放器</h2><p>优点</p><ul><li>能直接调用 HDR 播放。</li><li>支持的格式多，显示效果强。</li></ul><p>缺点</p><ul><li>对字幕文件格式支持不是很友好，<code>.ass</code> 、<code>.sup</code> 这类的文件，有时候根本不能用。</li></ul><h2 id="VLC-media-player"><a href="#VLC-media-player" class="headerlink" title="VLC media player"></a>VLC media player</h2><p>优点</p><ul><li>能直接调用 HDR 播放。</li><li>支持的格式多，显示效果强，个人观感最好。</li></ul><p>缺点</p><ul><li>播放外挂字幕时，对 <code>.ass</code> 文件可能还会出现字幕颜色异常的情况。如下图所示：</li></ul><p><img src="/images/post/john_wick/%E5%AD%97%E5%B9%95%E9%A2%9C%E8%89%B2%E5%BC%82%E5%B8%B8.webp" alt="字幕颜色异常"><br>　　解决的办法也很简单，依次打开：工具-偏好设置-视频-输出，选择 <code>OpenGL 视频输出</code> ，然后重新打开视频、挂载字幕。<a href="https://cloud.tencent.com/developer/article/2024026"><sup>1</sup></a><br><img src="/images/post/john_wick/VLC%E8%AE%BE%E7%BD%AE.webp" alt="VLC设置"><br>　　关闭播放器，再重新打开就可以看到字幕色彩正常啦！<br><img src="/images/post/john_wick/VLC%E4%BF%AE%E6%94%B9%E5%90%8E.webp" alt="VLC修改后"><br>　　修改成 <code>OpenGL 视频输出</code> 之后就没有办法像 Windows 一样直接播放，在笔者的电脑上需要进行切换且在 HDR 下没办法正常截图,肉眼观感不受影响，使用体验会大打折扣。<br><br>　　窗口模式时有视频进度条，但是鼠标进入视频界面会消失。<br><br>　　全屏时没有视频进度条（晃动鼠标也没有），鼠标在画面也会消失。<br></p><h1 id="Bilibili-对-HDR-的支持"><a href="#Bilibili-对-HDR-的支持" class="headerlink" title="Bilibili 对 HDR 的支持"></a>Bilibili 对 HDR 的支持</h1><p>　　现在在 Windows 上，只要 Chromium 内核版本大于106，可以直接在网页版直接观看 HDR 的视频内容。（需要开通大会员）<br><img src="/images/post/john_wick/Bilibilihdr.webp" alt=" Bilibili 上的 HDR 选项"></p><h1 id="参考内容"><a href="#参考内容" class="headerlink" title="参考内容"></a>参考内容</h1><p>1:<a href="https://cloud.tencent.com/developer/article/2024026">解决 Windows 下 VLC 播放 HDR 视频外挂字幕纯黑问题</a></p>]]></content>
+    
+    <summary type="html">
+    
+      本文比较了 PotPlayer、VLC media player 和 Windows 媒体播放器在播放 HDR 视频时的差异。 VLC 在显示效果方面表现最佳， PotPlayer 需要调整设置才能发挥作用。文章还提到了 Bilibili 网页版对 HDR 的支持。读者可以根据这些比较来选择适合自己需求的播放器，提升观影体验。
+    
+    </summary>
+    
+    
+    
+      <category term="教程" scheme="https://asdf3500.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Welcome!</title>
+    <link href="https://asdf3500.github.io/2023/05/20/Welcome/"/>
+    <id>https://asdf3500.github.io/2023/05/20/Welcome/</id>
+    <published>2023-05-19T16:00:00.000Z</published>
+    <updated>2023-05-19T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>欢迎来到个人博客。<br>经过几个小时的奋战，捣鼓出来一个依靠GitHub的小网站，个人感觉还行，在这个过程中感觉还有好多东西要学。</p><p>Tag与Category的区别，自定义一些好玩的功能。</p><p>但最重要的还是得学习一下如何输出，对于我来说，文学表达方面真的很差很差。<br>希望能够将其他地方零散的文档，经过润色之后慢慢的搬运过来，把这边打造成个人库，顺便作为一个随笔一样的地方，不再去想着那个文档是在语雀还是腾讯文档，是OneDrive还是Notion。</p><p>互联网时代，能解决需求的工具层出不穷，但很难找到一个可以让自己一直能够用下去的，希望这次能行吧。</p><div style="text-align: right"> 2023年5月19日 </div>  ]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;欢迎来到个人博客。&lt;br&gt;经过几个小时的奋战，捣鼓出来一个依靠GitHub的小网站，个人感觉还行，在这个过程中感觉还有好多东西要学。&lt;/p&gt;
+&lt;p&gt;Tag与Category的区别，自定义一些好玩的功能。&lt;/p&gt;
+&lt;p&gt;但最重要的还是得学习一下如何输出，对于我来说，文学表达方
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="天气" scheme="https://asdf3500.github.io/tags/%E5%A4%A9%E6%B0%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://asdf3500.github.io/2023/05/19/hello-world/"/>
+    <id>https://asdf3500.github.io/2023/05/19/hello-world/</id>
+    <published>2023-05-18T16:00:00.000Z</published>
+    <updated>2023-05-19T07:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>在 Docker 中安装 Hexo</title>
+    <link href="https://asdf3500.github.io/2023/05/18/%E5%9C%A8-Docker-%E4%B8%AD%E5%AE%89%E8%A3%85-Hexo/"/>
+    <id>https://asdf3500.github.io/2023/05/18/%E5%9C%A8-Docker-%E4%B8%AD%E5%AE%89%E8%A3%85-Hexo/</id>
+    <published>2023-05-17T16:00:00.000Z</published>
+    <updated>2023-05-17T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a><font id="1">前言</font></h3><!--id随便设置，不重复即可--><p>为了不污染本地环境，尝试在 Docker 中安装 Hexo，结果遇到不少坑。</p><hr><p>旧版 Docker 需要 VirtualBox，网上教程大多使用 Boot2Docker 和 Docker Toolbox，但新版以 HyperKit 方式直接支持，更加方便。</p><hr><h3 id="什么是-Docker"><a href="#什么是-Docker" class="headerlink" title="什么是 Docker"></a>什么是 Docker</h3><blockquote><p>Docker 是一个开源项目，诞生于 2013 年初，最初是 dotCloud 公司内部的一个业余项目。它基于 Google 公司推出的 Go 语言实现。项目后来加入了 Linux 基金会，遵从了 Apache 2.0 协议，项目代码在 GitHub 上进行维护。<br><br>Docker 自开源后受到广泛的关注和讨论，以至于 dotCloud 公司后来都改名为 Docker Inc。Redhat 已经在其 RHEL6.5 中集中支持 Docker；Google 也在其 PaaS 产品中广泛应用。<br><br>Docker 项目的目标是实现轻量级的操作系统虚拟化解决方案。Docker 的基础是 Linux 容器（LXC）等技术。<br><br>在 LXC 的基础上 Docker 进行了进一步的封装，让用户不需要去关心容器的管理，使得操作更为简便。用户操作 Docker 的容器就像操作一个快速轻量级的虚拟机一样简单。<br><br>Docker —— 从入门到实践<br>yeasy.gitbooks.io&#x2F;docker_practice&#x2F;content&#x2F;introduction&#x2F;what.html</p></blockquote><h3 id="安装-Docker"><a href="#安装-Docker" class="headerlink" title="安装 Docker"></a>安装 Docker</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">brew cask install docker</span><br><span class="line">brew cask install kitematic</span><br></pre></td></tr></table></figure><p>Kitematic 非必须，是用于管理镜像（image）和容器（container）的 GUI。更推荐在 CLI 中进行操作。</p><h3 id="编写-Dockerfile"><a href="#编写-Dockerfile" class="headerlink" title="编写 Dockerfile"></a>编写 Dockerfile</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"># https://docs.docker.com/engine/reference/builder/</span><br><span class="line"></span><br><span class="line"># The `FROM` instruction sets the Base Image for subsequent instructions.</span><br><span class="line">FROM node</span><br><span class="line"></span><br><span class="line"># The `MAINTAINER` instruction allows you to set the Author field of the generated images.</span><br><span class="line">MAINTAINER nuomi1 &lt;nuomi1@gmail.com&gt;</span><br><span class="line"></span><br><span class="line"># The `WORKDIR` instruction sets the working directory for any `RUN`, `CMD`, `ENTRYPOINT`, `COPY` and `ADD` instructions that follow it in the Dockerfile.</span><br><span class="line">WORKDIR /blog</span><br><span class="line"></span><br><span class="line"># The `RUN` instruction will execute any commands in a new layer on top of the current image and commit the results.</span><br><span class="line">RUN npm install hexo-cli --global</span><br><span class="line"></span><br><span class="line"># The `CMD` instruction is to provide defaults for an executing container.</span><br><span class="line">CMD [&quot;bash&quot;]</span><br><span class="line"></span><br><span class="line"># The `EXPOSE` instruction informs Docker that the container listens on the specified network ports at runtime.</span><br><span class="line">EXPOSE 4000</span><br><span class="line"></span><br><span class="line"># The `VOLUME` instruction creates a mount point with the specified name and marks it as holding externally mounted volumes from native host or other containers.</span><br><span class="line">VOLUME [&quot;/blog&quot;]</span><br></pre></td></tr></table></figure><p>基于 Node.js 镜像制作 Hexo 镜像。EXPOSE 监听容器端口，实现宿主机访问容器。VOLUME 把宿主机文件夹与容器绑定，实现数据交换。</p><h3 id="制作-Hexo-镜像"><a href="#制作-Hexo-镜像" class="headerlink" title="制作 Hexo 镜像"></a>制作 Hexo 镜像</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line">➜ ~ docker build -t hexo:3.2.2 .</span><br><span class="line">Sending build context to Docker daemon  2.56 kB</span><br><span class="line">Step 1 : FROM node</span><br><span class="line"> ---&gt; e3e7156ded1f</span><br><span class="line">Step 2 : MAINTAINER nuomi1 &lt;nuomi1@gmail.com&gt;</span><br><span class="line"> ---&gt; Running in ec112a08d029</span><br><span class="line"> ---&gt; 8f879fde3b92</span><br><span class="line">Removing intermediate container ec112a08d029</span><br><span class="line">Step 3 : WORKDIR /blog</span><br><span class="line"> ---&gt; Running in c38a1ed24e99</span><br><span class="line"> ---&gt; fc7af853de2d</span><br><span class="line">Removing intermediate container c38a1ed24e99</span><br><span class="line">Step 4 : RUN npm install hexo-cli --global</span><br><span class="line"> ---&gt; Running in 443bc5a93f6f</span><br><span class="line"></span><br><span class="line">...</span><br><span class="line"></span><br><span class="line">npm WARN optional Skipping failed optional dependency /hexo-cli/chokidar/fsevents:</span><br><span class="line">npm WARN notsup Not compatible with your operating system or architecture: fsevents@1.0.14</span><br><span class="line">npm info ok</span><br><span class="line"> ---&gt; 822836fccda7</span><br><span class="line">Removing intermediate container 443bc5a93f6f</span><br><span class="line">Step 5 : CMD bash</span><br><span class="line"> ---&gt; Running in 54aaa1b027cc</span><br><span class="line"> ---&gt; 16355691b010</span><br><span class="line">Removing intermediate container 54aaa1b027cc</span><br><span class="line">Step 6 : EXPOSE 4000</span><br><span class="line"> ---&gt; Running in 63d3a94bbec8</span><br><span class="line"> ---&gt; 76e4bb5cb68c</span><br><span class="line">Removing intermediate container 63d3a94bbec8</span><br><span class="line">Step 7 : VOLUME /blog</span><br><span class="line"> ---&gt; Running in 570626f0c9d3</span><br><span class="line"> ---&gt; 1665568a3712</span><br><span class="line">Removing intermediate container 570626f0c9d3</span><br><span class="line">Successfully built 1665568a3712</span><br></pre></td></tr></table></figure><p>fsevents 用于 OS X，但 Node.js 镜像为 Debian，忽略即可。</p><h3 id="制作-Hexo-容器"><a href="#制作-Hexo-容器" class="headerlink" title="制作 Hexo 容器"></a>制作 Hexo 容器</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -i --name hexo -p 4000:4000 -t -v ~/blog:/blog hexo:3.2.2</span><br></pre></td></tr></table></figure><p>容器 4000 端口宿主机 4000 端口绑定，宿主机访问 <a href="http://localhost:4000/">http://localhost:4000</a> 即可预览博客。宿主机 <code> ~/blog</code> 与容器 <code>/blog</code> 绑定，实现数据交换。</p><h3 id="运行-Hexo-容器"><a href="#运行-Hexo-容器" class="headerlink" title="运行 Hexo 容器"></a>运行 Hexo 容器</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker start -i hexo</span><br></pre></td></tr></table></figure><p><a href="#1">返回文章首行</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;&lt;font id=&quot;1&quot;&gt;前言&lt;/font&gt;&lt;/h3&gt;&lt;!--id随便设置，不重复即可--&gt;
+&lt;p&gt;为了不污染本地环境，尝试在 Docker 中安装
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="教程" scheme="https://asdf3500.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="Hexo" scheme="https://asdf3500.github.io/tags/Hexo/"/>
+    
+  </entry>
+  
+</feed>
